@@ -1,0 +1,49 @@
+body {
+  background-image: url("boat.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  background-position: center;
+}
+
+h1 {
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-not-found {
+  margin-bottom: 250px;
+}
+p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fa-anchor {
+  color: brown;
+  margin-left: 5px;
+}
+
+.fa-anchor:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+}
